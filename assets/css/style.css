@@ -113,7 +113,8 @@ img {
 }
 
 @media only screen and (max-width: 620px) {
-    .about-me, .recent-work, .content, #header {
+    .about-me, .recent-work, .content {
       width: 100%;
+      padding-right: 50px;
     }
 }
