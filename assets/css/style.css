@@ -18,7 +18,7 @@ body {
 
 #header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
 }
 
 #header div {
@@ -48,6 +48,7 @@ p {
     font-size: 16px;
 }
 
+
 h1 {
     justify-content: left;
     padding: 20px;
@@ -72,15 +73,7 @@ img {
     padding: 10px;
   }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 25%;
@@ -96,7 +89,6 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #da980c;
     color: #ffffff;
-    justify-content: right;
 }
 
 .about-me img, .recent-work img, .contact img {
@@ -123,5 +115,6 @@ img {
     .about-me, .recent-work, .contact, .content, .main {
       width: 100%;
       padding-right: 50px;
+      justify-content: center;
     }
 }
