@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+
 #header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,10 +19,6 @@ body {
 #header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-#header h1 .seo {
-    color: #d9dcd6;
 }
 
 #header div {
@@ -39,6 +36,7 @@ body {
 #header div ul li {
     display: inline-block;
     margin-left: 25px;
+    padding-top: 20px;
 }
 
 a {
@@ -50,10 +48,16 @@ p {
     font-size: 16px;
 }
 
-main {
+h1 {
+    justify-content: left;
+    padding: 20px;
+    height: auto;
+}
+
+.main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-between;
   }
   
 section {
@@ -63,8 +67,9 @@ section {
   
 img {
     border-radius: 50%;
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
+    padding: 10px;
   }
 
 .float-left {
@@ -91,6 +96,7 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #da980c;
     color: #ffffff;
+    justify-content: right;
 }
 
 .about-me img, .recent-work img, .contact img {
@@ -114,7 +120,7 @@ img {
 }
 
 @media only screen and (max-width: 620px) {
-    .about-me, .recent-work, .contact, .content {
+    .about-me, .recent-work, .contact, .content, .main {
       width: 100%;
       padding-right: 50px;
     }
