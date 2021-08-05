@@ -6,7 +6,8 @@
 
 img {
     border-radius: 50%;
-    display: inline;
+    max-width: 100%;
+    height: auto;
   }
 
 body {
