@@ -83,6 +83,15 @@ p {
     margin-left: 20px;
 }
 
+.about-me, .recent-work, .contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 .about-me img, .recent-work img, .contact img {
     max-height: 200px;
 }
